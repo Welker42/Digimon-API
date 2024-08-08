@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ffcc00;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.search-container {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start; /* Alinha o campo de pesquisa à esquerda */
+    width: 100%;
+}
+
+#search-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px; /* Largura máxima do campo de pesquisa */
+}
+
+.digimon-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.digimon-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.digimon-card h2 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
